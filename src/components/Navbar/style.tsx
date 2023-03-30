@@ -11,7 +11,7 @@ export const Navbar = styled("nav", {
   padding: "1rem 0",
   width: "100%",
   zIndex: "99999",
-
+  
   [`& ${Container}`]: {
     display: "flex",
     position: "relative",
@@ -46,6 +46,7 @@ export const NavbarLinks = styled(Flex, {
       justifyContent: "flex-start",
       paddingLeft: 0,
     },
+
   },
 });
 

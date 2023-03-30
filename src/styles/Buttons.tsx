@@ -19,6 +19,10 @@ export const Button = styled("button", {
   width: "max-content",
   whiteSpace: "nowrap",
 
+  "&:hover": {
+    color: "#623CEA"
+  },
+
   variants: {
     type: {
       btLink: {
